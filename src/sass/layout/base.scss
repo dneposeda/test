@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.aside {
+    flex-basis: 200px;
+    flex-shrink: 0;
+    color: #656565;
+    text-transform: uppercase;
+}
+
+.aside__wrapper {
+    text-align: center;
+    padding-top: 50px;
+    position: fixed;
+    left: 100px;
+    transform: translateX(-50%);
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #f1f1f1;
+}
